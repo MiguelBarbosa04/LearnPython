@@ -1,0 +1,38 @@
+print ("Hello World!")
+print ("Let´s see what I can learn with some hours of studing python")
+
+print ("\n") #Space between lines
+
+phrase= "Wassup"
+print (phrase.lower()) #Lowercase
+print (phrase.upper()) #Capital letters 
+
+print (phrase.upper().islower()) #If is true or false that the phrase is in capital letter
+print (phrase.upper().isupper()) #If is true or false that the phrase is in capital letter 
+print (phrase.lower().isupper()) #If is true or false that the phrase is in lowercase 
+print (phrase.lower().islower()) #If is true or false that the phrase is in lowercase  
+print ("\n")
+print (len(phrase)) #Phrase lenght 
+print ("\n")
+print (phrase[0]) #Show phrase character (in this case "W")
+print ("\n")
+print (phrase.index("W")) #Show the corresponding number to "w"
+print ("\n")
+print (phrase.replace("Wassup" , "Wasup"))  #Replace the phrase
+print ("\n")
+
+character_name= "Miguel"  #Variable 
+character_age= "18"       #Variable 
+
+print ("One time a kid named " + character_name + " with " + character_age + " years old wanted learn python. ")
+print ("\n")
+
+print (2 + 2) 
+print (2 - 2) 
+print (2 * 2) 
+print (2 / 2) 
+print (10 % 3) #Division left over
+print ("\n")
+
+num_variable= 5      #Variable
+print (num_variable) #Variable
